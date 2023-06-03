@@ -9673,7 +9673,7 @@ __metadata:
     react-dom: 18.2.0
     react-native: 0.71.8
     react-native-gesture-handler: 2.9.0
-    react-native-safe-area-context: 4.5.0
+    react-native-safe-area-context: 4.5.2
     react-native-screens: 3.20.0
     react-native-svg: 13.4.0
     react-native-web: 0.18.12
@@ -12723,7 +12723,7 @@ __metadata:
     node-gyp: 9.3.1
     prettier: 2.8.8
     turbo: 1.10.1
-    typescript: 5.1.3
+    typescript: ^4.9.4
   languageName: unknown
   linkType: soft
 
@@ -14405,7 +14405,7 @@ __metadata:
     raf: 3.4.1
     react: 18.2.0
     react-dom: 18.2.0
-    react-native: 0.71.7
+    react-native: 0.71.8
     react-native-web: 0.18.12
     react-native-web-lite: latest
     vercel: latest
@@ -16077,27 +16077,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-native-gradle-plugin@npm:^0.71.17":
-  version: 0.71.17
-  resolution: "react-native-gradle-plugin@npm:0.71.17"
-  checksum: 5ff996bafc3959a36551dc34d481cefb070ede4025b5eb2ce659f51adf74ba0e6845cc019ea1d547e0b4007f1c3c68146fa719688f09bde308f25320c6c6f834
-  languageName: node
-  linkType: hard
-
 "react-native-gradle-plugin@npm:^0.71.18":
   version: 0.71.18
   resolution: "react-native-gradle-plugin@npm:0.71.18"
   checksum: 19f0a41e29c9210ff495010aaa612f2c2f4f5f937b6c20266c8dc62f4ccedc65bb7576de59b2f3fd2bb8044ce9785e56673879f2eb452f948e6659a5e1fa5894
-  languageName: node
-  linkType: hard
-
-"react-native-safe-area-context@npm:4.5.0":
-  version: 4.5.0
-  resolution: "react-native-safe-area-context@npm:4.5.0"
-  peerDependencies:
-    react: "*"
-    react-native: "*"
-  checksum: 958df1d20492aa89c23d746f88409a3a3bd1b0d397c80310a4b0bbec9888cbbeb7579c9c92dad46841e2e6536491806206228ba009b7c8af970670aef8273a30
   languageName: node
   linkType: hard
 
@@ -16182,52 +16165,6 @@ __metadata:
     react: ^17.0.2 || ^18.0.0
     react-dom: ^17.0.2 || ^18.0.0
   checksum: 69f0ebafafc4b04b845105646d0efc0cee10ed378377c621ac67a487d5508bb0dbd1c0ff3ea8d17f5cff0c0fb8d6355916f52f19ad3dad842b99b75c65ff4973
-  languageName: node
-  linkType: hard
-
-"react-native@npm:0.71.7":
-  version: 0.71.7
-  resolution: "react-native@npm:0.71.7"
-  dependencies:
-    "@jest/create-cache-key-function": ^29.2.1
-    "@react-native-community/cli": 10.2.2
-    "@react-native-community/cli-platform-android": 10.2.0
-    "@react-native-community/cli-platform-ios": 10.2.1
-    "@react-native/assets": 1.0.0
-    "@react-native/normalize-color": 2.1.0
-    "@react-native/polyfills": 2.0.0
-    abort-controller: ^3.0.0
-    anser: ^1.4.9
-    base64-js: ^1.1.2
-    deprecated-react-native-prop-types: ^3.0.1
-    event-target-shim: ^5.0.1
-    invariant: ^2.2.4
-    jest-environment-node: ^29.2.1
-    jsc-android: ^250231.0.0
-    memoize-one: ^5.0.0
-    metro-react-native-babel-transformer: 0.73.9
-    metro-runtime: 0.73.9
-    metro-source-map: 0.73.9
-    mkdirp: ^0.5.1
-    nullthrows: ^1.1.1
-    pretty-format: ^26.5.2
-    promise: ^8.3.0
-    react-devtools-core: ^4.26.1
-    react-native-codegen: ^0.71.5
-    react-native-gradle-plugin: ^0.71.17
-    react-refresh: ^0.4.0
-    react-shallow-renderer: ^16.15.0
-    regenerator-runtime: ^0.13.2
-    scheduler: ^0.23.0
-    stacktrace-parser: ^0.1.3
-    use-sync-external-store: ^1.0.0
-    whatwg-fetch: ^3.0.0
-    ws: ^6.2.2
-  peerDependencies:
-    react: 18.2.0
-  bin:
-    react-native: cli.js
-  checksum: efd91d5560290b883e0d3d3482cc4657268c2e480171b63a0c6b7dc8f6b1331298feac7d9966e1831d95d9fee893dfa831252052561232843e4982880238f09e
   languageName: node
   linkType: hard
 
@@ -18723,16 +18660,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typescript@npm:5.1.3":
-  version: 5.1.3
-  resolution: "typescript@npm:5.1.3"
-  bin:
-    tsc: bin/tsc
-    tsserver: bin/tsserver
-  checksum: d9d51862d98efa46534f2800a1071a613751b1585dc78884807d0c179bcd93d6e9d4012a508e276742f5f33c480adefc52ffcafaf9e0e00ab641a14cde9a31c7
-  languageName: node
-  linkType: hard
-
 "typescript@npm:^4.9.4":
   version: 4.9.5
   resolution: "typescript@npm:4.9.5"
@@ -18760,16 +18687,6 @@ __metadata:
     tsc: bin/tsc
     tsserver: bin/tsserver
   checksum: 6ccc2e1148e172da119ea4b72c66395a0c18a53884d21fb82bb4503a948a7169e9961defe24a359040a3d77bf5ff338945804296e0e27c87b5bd22ea1d25781b
-  languageName: node
-  linkType: hard
-
-"typescript@patch:typescript@5.1.3#~builtin<compat/typescript>":
-  version: 5.1.3
-  resolution: "typescript@patch:typescript@npm%3A5.1.3#~builtin<compat/typescript>::version=5.1.3&hash=85af82"
-  bin:
-    tsc: bin/tsc
-    tsserver: bin/tsserver
-  checksum: 32a25b2e128a4616f999d4ee502aabb1525d5647bc8955e6edf05d7fbc53af8aa98252e2f6ba80bcedfc0260c982b885f3c09cfac8bb65d2924f3133ad1e1e62
   languageName: node
   linkType: hard
 
