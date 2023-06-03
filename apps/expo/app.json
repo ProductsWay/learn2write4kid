@@ -1,8 +1,8 @@
 {
   "expo": {
-    "name": "[yourprojectsname]",
-    "slug": "[yourprojectsname]",
-    "scheme": "[yourprojectsname]",
+    "name": "Learn2Write4Kids",
+    "slug": "learn2write4kids",
+    "scheme": "Learn2Write4Kids",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -18,22 +18,23 @@
     "assetBundlePatterns": ["**/*"],
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.[yourprojectsname].app"
+      "bundleIdentifier": "com.Learn2Write4Kids.app"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
       },
-      "package": "com.[yourprojectsname].app"
+      "package": "com.Learn2Write4Kids.app"
     },
     "web": {
       "favicon": "./assets/favicon.png"
     },
     "extra": {
       "eas": {
-        "projectId": "[your_project_id]"
+        "projectId": "01a62c26-7195-4a3e-b8a1-18539c023283"
       }
-    }
+    },
+    "owner": "dunghd"
   }
 }
