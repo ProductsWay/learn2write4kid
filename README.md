@@ -1,14 +1,17 @@
-# Tamagui + Solito + Next + Expo Monorepo
+<h1 align="center">Welcome to learn2write4kid 👋</h1>
+<p>
+Simple app for kids to learn how to write
+</p>
+
+## Install
 
 ```sh
-npm create tamagui
+yarn install
 ```
 
 ## 🔦 About
 
 This monorepo is a starter for an Expo + Next.js + Tamagui + Solito app.
-
-Many thanks to [@FernandoTheRojo](https://twitter.com/fernandotherojo) for the Solito starter monorepo which this was forked from. Check out his [talk about using expo + next together at Next.js Conf 2021](https://www.youtube.com/watch?v=0lnbdRweJtA).
 
 ## 📦 Included packages
 
@@ -93,3 +96,19 @@ You may potentially want to have the native module transpiled for the next app. 
 - Install command to be `yarn set version berry && yarn install`
 - Build command: leave default setting
 - Output dir: leave default setting
+
+## Author
+
+👤 **Huynh Duc Dung**
+
+- Website: https://productsway.com/
+- Twitter: [@jellydn](https://twitter.com/jellydn)
+- Github: [@jellydn](https://github.com/jellydn)
+
+## Show your support
+
+[![kofi](https://img.shields.io/badge/Ko--fi-F16061?style=for-the-badge&logo=ko-fi&logoColor=white)](https://ko-fi.com/dunghd)
+[![paypal](https://img.shields.io/badge/PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white)](https://paypal.me/dunghd)
+[![buymeacoffee](https://img.shields.io/badge/Buy_Me_A_Coffee-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://www.buymeacoffee.com/dunghd)
+
+Give a ⭐️ if this project helped you!
