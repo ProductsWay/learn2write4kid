@@ -5398,7 +5398,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react@npm:*, @types/react@npm:^18.0.15, @types/react@npm:^18.0.27":
+"@types/react@npm:*, @types/react@npm:18.2.0, @types/react@npm:^18.0.15":
   version: 18.2.0
   resolution: "@types/react@npm:18.2.0"
   dependencies:
@@ -6097,7 +6097,7 @@ __metadata:
     "@tamagui/lucide-icons": latest
     "@tamagui/shorthands": latest
     "@tamagui/themes": latest
-    "@types/react": ^18.0.27
+    "@types/react": 18.2.0
     "@types/react-native": 0.71.6
     burnt: 0.10.0
     expo-constants: 14.2.1
