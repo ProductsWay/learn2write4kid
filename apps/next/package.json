@@ -3,11 +3,11 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
     "build": "cd ../.. && yarn build && cd apps/next && TAMAGUI_TARGET=web next build",
-    "start": "next start",
+    "dev": "next dev",
+    "lint": "next lint",
     "serve": "NODE_ENV=production next start --port 8151",
-    "lint": "next lint"
+    "start": "next start"
   },
   "dependencies": {
     "@tamagui/next-theme": "latest",

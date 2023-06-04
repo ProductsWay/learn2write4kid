@@ -1,4 +1,4 @@
-import { Button, Paragraph, YStack } from '@my/ui'
+import { Button, Paragraph, YStack } from '@productsway/ui'
 import { ChevronLeft } from '@tamagui/lucide-icons'
 import React from 'react'
 import { createParam } from 'solito'

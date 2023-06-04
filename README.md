@@ -52,7 +52,7 @@ To see debug output to verify the compiler, add `// debug` as a comment to the t
 
 Note we're following the [design systems guide](https://tamagui.dev/docs/guides/design-systems) and creating our own package for components.
 
-See `packages/ui` named `@my/ui` for how this works.
+See `packages/ui` named `@productsway/ui` for how this works.
 
 ## 🆕 Add new dependencies
 
