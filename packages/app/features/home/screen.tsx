@@ -1,98 +1,32 @@
-import { ChevronDown, ChevronUp } from '@tamagui/lucide-icons'
-import React, { useState } from 'react'
-import { useLink } from 'solito/link'
+import { useRouter } from 'next/router'
+import React from 'react'
 
-import {
-  Anchor,
-  Button,
-  H1,
-  Paragraph,
-  Separator,
-  Sheet,
-  XStack,
-  YStack,
-  useToastController,
-} from '@productsway/ui'
+import { Anchor, H1, Image, YStack } from '@productsway/ui'
+
+const languages = [
+  { name: 'English', flag: { uri: 'https://www.countryflags.io/gb/flat/64.png' }, code: 'en' },
+  { name: 'Español', flag: { uri: 'https://www.countryflags.io/es/flat/64.png' }, code: 'es' },
+  { name: 'Français', flag: { uri: 'https://www.countryflags.io/fr/flat/64.png' }, code: 'fr' },
+  { name: 'Deutsch', flag: { uri: 'https://www.countryflags.io/de/flat/64.png' }, code: 'de' },
+  { name: 'Italiano', flag: { uri: 'https://www.countryflags.io/it/flat/64.png' }, code: 'it' },
+]
 
 export function HomeScreen() {
-  const linkProps = useLink({
-    href: '/user/nate',
-  })
+  const router = useRouter()
+
+  const handleLanguagePress = (code: string) => {
+    router.push(`/language/${code}`)
+  }
 
   return (
-    <YStack f={1} jc="center" ai="center" p="$4" space>
-      <YStack space="$4" maw={600}>
-        <H1 ta="center">Welcome to Tamagui.</H1>
-        <Paragraph ta="center">
-          Here's a basic starter to show navigating from one screen to another. This screen uses the
-          same code on Next.js and React Native.
-        </Paragraph>
-
-        <Separator />
-        <Paragraph ta="center">
-          Made by{' '}
-          <Anchor color="$color12" href="https://twitter.com/natebirdman" target="_blank">
-            @natebirdman
-          </Anchor>
-          ,{' '}
-          <Anchor
-            color="$color12"
-            href="https://github.com/tamagui/tamagui"
-            target="_blank"
-            rel="noreferrer"
-          >
-            give it a ⭐️
-          </Anchor>
-        </Paragraph>
-      </YStack>
-
-      <XStack>
-        <Button {...linkProps}>Link to user</Button>
-      </XStack>
-
-      <SheetDemo />
+    <YStack f={1} p="$4" space>
+      <H1 ta="center">Let's learn</H1>
+      {languages.map((language) => (
+        <YStack key={language.code} p="$4" onPress={() => handleLanguagePress(language.code)}>
+          <Image source={language.flag} />
+          <H1>{language.name}</H1>
+        </YStack>
+      ))}
     </YStack>
-  )
-}
-
-function SheetDemo() {
-  const [open, setOpen] = useState(false)
-  const [position, setPosition] = useState(0)
-  const toast = useToastController()
-
-  return (
-    <>
-      <Button
-        size="$6"
-        icon={open ? ChevronDown : ChevronUp}
-        circular
-        onPress={() => setOpen((x) => !x)}
-      />
-      <Sheet
-        modal
-        open={open}
-        onOpenChange={setOpen}
-        snapPoints={[80]}
-        position={position}
-        onPositionChange={setPosition}
-        dismissOnSnapToBottom
-      >
-        <Sheet.Overlay />
-        <Sheet.Frame ai="center" jc="center">
-          <Sheet.Handle />
-          <Button
-            size="$6"
-            circular
-            icon={ChevronDown}
-            onPress={() => {
-              setOpen(false)
-              toast.show('Sheet closed!', {
-                message: 'Just showing how toast works...',
-              })
-            }}
-          />
-        </Sheet.Frame>
-      </Sheet>
-    </>
   )
 }

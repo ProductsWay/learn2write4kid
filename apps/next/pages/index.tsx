@@ -6,7 +6,7 @@ export default function Page() {
   return (
     <>
       <Head>
-        <title>Home</title>
+        <title>Learn 2 Write For Kids</title>
       </Head>
       <HomeScreen />
     </>

@@ -1,16 +1,16 @@
 import { Stack } from 'expo-router'
 
-import { UserDetailScreen } from 'app/features/user/detail-screen'
+import { LanguageDetailScreen } from 'app/features/language/detail-screen'
 
 export default function Screen() {
   return (
     <>
       <Stack.Screen
         options={{
-          title: 'User',
+          title: 'How to Write',
         }}
       />
-      <UserDetailScreen />
+      <LanguageDetailScreen />
     </>
   )
 }
