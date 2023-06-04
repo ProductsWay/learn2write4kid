@@ -3,5 +3,8 @@
   "semi": false,
   "singleQuote": true,
   "arrowParens": "always",
-  "printWidth": 100
+  "printWidth": 100,
+  "importOrder": ["^@tamagui/(.*)$", "^app/(.*)$", "^@productsway/(.*)$", "^[./]"],
+  "importOrderSeparation": true,
+  "importOrderSortSpecifiers": true
 }
