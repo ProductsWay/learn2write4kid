@@ -1,15 +1,15 @@
 'use client'
 
-import '@tamagui/core/reset.css'
-import '@tamagui/polyfill-dev'
-
-import { config as configBase } from '@tamagui/config'
-import { NextThemeProvider, useRootTheme } from '@tamagui/next-theme'
 import { Main } from 'next/document'
 import { useServerInsertedHTML } from 'next/navigation'
 import React from 'react'
 import { AppRegistry } from 'react-native'
-import { createTamagui, TamaguiProvider as TamaguiProviderOG } from 'tamagui'
+import { TamaguiProvider as TamaguiProviderOG, createTamagui } from 'tamagui'
+
+import { config as configBase } from '@tamagui/config'
+import '@tamagui/core/reset.css'
+import { NextThemeProvider, useRootTheme } from '@tamagui/next-theme'
+import '@tamagui/polyfill-dev'
 
 import Tamagui from '../tamagui.config'
 

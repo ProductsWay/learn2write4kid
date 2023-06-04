@@ -1,3 +1,7 @@
+import { ChevronDown, ChevronUp } from '@tamagui/lucide-icons'
+import React, { useState } from 'react'
+import { useLink } from 'solito/link'
+
 import {
   Anchor,
   Button,
@@ -5,13 +9,10 @@ import {
   Paragraph,
   Separator,
   Sheet,
-  useToastController,
   XStack,
   YStack,
+  useToastController,
 } from '@productsway/ui'
-import { ChevronDown, ChevronUp } from '@tamagui/lucide-icons'
-import React, { useState } from 'react'
-import { useLink } from 'solito/link'
 
 export function HomeScreen() {
   const linkProps = useLink({
