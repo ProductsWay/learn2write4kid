@@ -5239,7 +5239,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@trivago/prettier-plugin-sort-imports@npm:^4.1.1":
+"@trivago/prettier-plugin-sort-imports@npm:4.1.1":
   version: 4.1.1
   resolution: "@trivago/prettier-plugin-sort-imports@npm:4.1.1"
   dependencies:
@@ -12900,7 +12900,7 @@ __metadata:
   dependencies:
     "@babel/runtime": 7.22.3
     "@manypkg/cli": 0.20.0
-    "@trivago/prettier-plugin-sort-imports": ^4.1.1
+    "@trivago/prettier-plugin-sort-imports": 4.1.1
     check-dependency-version-consistency: 4.1.0
     eslint: 8.42.0
     node-gyp: 9.3.1
