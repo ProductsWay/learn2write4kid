@@ -5276,7 +5276,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react@npm:*, @types/react@npm:18.2.8":
+"@types/react@npm:*":
   version: 18.2.8
   resolution: "@types/react@npm:18.2.8"
   dependencies:
@@ -5284,6 +5284,17 @@ __metadata:
     "@types/scheduler": "*"
     csstype: ^3.0.2
   checksum: 351fe2450d30bff2ceb6aa84788e948317555e5ea22cb44f6778e08c977aab1878a0119bd94bc3d1bec5f5af4a75ffaa2ce111df5cd9d4ce26bfd719e4d971c2
+  languageName: node
+  linkType: hard
+
+"@types/react@npm:18.2.9":
+  version: 18.2.9
+  resolution: "@types/react@npm:18.2.9"
+  dependencies:
+    "@types/prop-types": "*"
+    "@types/scheduler": "*"
+    csstype: ^3.0.2
+  checksum: f155256171a2d701eb962a1d3aa2a1c9ee36d9dd4a4aecb911d29e50717aab1a76914aef25242665147c455b9e8d081d1a60275d13ca81075c148ebd6607414a
   languageName: node
   linkType: hard
 
@@ -5969,7 +5980,7 @@ __metadata:
     "@tamagui/lucide-icons": latest
     "@tamagui/shorthands": latest
     "@tamagui/themes": latest
-    "@types/react": 18.2.8
+    "@types/react": 18.2.9
     "@types/react-native": 0.72.2
     burnt: 0.11.4
     expo-constants: 14.2.1
@@ -9522,11 +9533,11 @@ __metadata:
     expo-splash-screen: 0.18.2
     expo-status-bar: 1.4.4
     expo-updates: 0.16.4
-    metro-minify-terser: 0.76.5
+    metro-minify-terser: 0.76.6
     react: 18.2.0
     react-dom: 18.2.0
-    react-native: 0.71.8
-    react-native-gesture-handler: 2.10.2
+    react-native: 0.71.10
+    react-native-gesture-handler: 2.11.0
     react-native-safe-area-context: 4.5.3
     react-native-screens: 3.20.0
     react-native-svg: 13.9.0
@@ -13358,12 +13369,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"metro-minify-terser@npm:0.76.5":
-  version: 0.76.5
-  resolution: "metro-minify-terser@npm:0.76.5"
+"metro-minify-terser@npm:0.76.6":
+  version: 0.76.6
+  resolution: "metro-minify-terser@npm:0.76.6"
   dependencies:
     terser: ^5.15.0
-  checksum: 5bc834413435b47bc4e90bde8943698a7c5ba8b2e188b9b6507a124844bcd541cb15723b58b77e825072e2da31083291f4484532b602a166e7608ae60e4f5e2b
+  checksum: 04238e6f7728c20c4d1d34460192f815614298c070b325211f3fdf90690c25b3f939780a037f539d6f60e8c1f6bc9eb31a1037f80a1c14942d3c6d4830620dee
   languageName: node
   linkType: hard
 
@@ -14353,7 +14364,7 @@ __metadata:
     raf: 3.4.1
     react: 18.2.0
     react-dom: 18.2.0
-    react-native: 0.71.8
+    react-native: 0.71.10
     react-native-web: 0.19.4
     react-native-web-lite: latest
     vercel: latest
@@ -16031,9 +16042,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-native-gesture-handler@npm:2.10.2":
-  version: 2.10.2
-  resolution: "react-native-gesture-handler@npm:2.10.2"
+"react-native-gesture-handler@npm:2.11.0":
+  version: 2.11.0
+  resolution: "react-native-gesture-handler@npm:2.11.0"
   dependencies:
     "@egjs/hammerjs": ^2.0.17
     hoist-non-react-statics: ^3.3.0
@@ -16043,14 +16054,14 @@ __metadata:
   peerDependencies:
     react: "*"
     react-native: "*"
-  checksum: e4ae47ef0b6acd30d820021ad70a73f7f0d5e22acd4fd1d6d9da9063e768a1ac11226b7ce518f7a93f2a9cd47de048756c9f0830a86c2784a991d30652a937df
+  checksum: 2f1e5ab3e96473c034f90e7aecce7d66fca992b791317b16a951928a42487598d3d3237e6e711bcf3cdb065f5b37415d3a8f8872f9df17993c614b852e350cd5
   languageName: node
   linkType: hard
 
-"react-native-gradle-plugin@npm:^0.71.18":
-  version: 0.71.18
-  resolution: "react-native-gradle-plugin@npm:0.71.18"
-  checksum: 19f0a41e29c9210ff495010aaa612f2c2f4f5f937b6c20266c8dc62f4ccedc65bb7576de59b2f3fd2bb8044ce9785e56673879f2eb452f948e6659a5e1fa5894
+"react-native-gradle-plugin@npm:^0.71.19":
+  version: 0.71.19
+  resolution: "react-native-gradle-plugin@npm:0.71.19"
+  checksum: 2e3ab679f0b81edd81b9fb88a73a16c8b9b6dbef4e7158fd894c42e6dff04ba8d11f1b9663ffa2c30d0d9deee3cd44b033cd280322c010be3c290e4422088a7a
   languageName: node
   linkType: hard
 
@@ -16139,9 +16150,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-native@npm:0.71.8":
-  version: 0.71.8
-  resolution: "react-native@npm:0.71.8"
+"react-native@npm:0.71.10":
+  version: 0.71.10
+  resolution: "react-native@npm:0.71.10"
   dependencies:
     "@jest/create-cache-key-function": ^29.2.1
     "@react-native-community/cli": 10.2.2
@@ -16168,7 +16179,7 @@ __metadata:
     promise: ^8.3.0
     react-devtools-core: ^4.26.1
     react-native-codegen: ^0.71.5
-    react-native-gradle-plugin: ^0.71.18
+    react-native-gradle-plugin: ^0.71.19
     react-refresh: ^0.4.0
     react-shallow-renderer: ^16.15.0
     regenerator-runtime: ^0.13.2
@@ -16181,7 +16192,7 @@ __metadata:
     react: 18.2.0
   bin:
     react-native: cli.js
-  checksum: fe887c1b8bded23f9efea9dc10a8a8b2f32147e06418fc9a78294944874797abb0185ebcb0fdc5ce88046280bca72264ae8d119f4ca681a3e0bc502d0f75bfbe
+  checksum: 08780690cdbdb15798bb59666ab7deabb4555904e78bcade60be42a35ea75365a668c2b5da1f3b431a66d0f1614e143344024ed8be49c219cd034a17fabb1ae9
   languageName: node
   linkType: hard
 
