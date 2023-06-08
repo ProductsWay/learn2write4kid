@@ -29,7 +29,7 @@
     "react-refresh": "0.14.0"
   },
   "dependencies": {
-    "@babel/runtime": "7.22.3",
+    "@babel/runtime": "7.22.5",
     "@manypkg/cli": "0.20.0",
     "check-dependency-version-consistency": "4.1.0",
     "eslint": "8.42.0",
