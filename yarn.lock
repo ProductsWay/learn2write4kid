@@ -5268,7 +5268,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react@npm:*, @types/react@npm:18.2.11":
+"@types/react@npm:*":
   version: 18.2.11
   resolution: "@types/react@npm:18.2.11"
   dependencies:
@@ -5276,6 +5276,17 @@ __metadata:
     "@types/scheduler": "*"
     csstype: ^3.0.2
   checksum: 3dcc326ea87468a06079b6c3a9e0f9a98a8438526aba81d29820954e2cb343b6beb8ca3d6a212878797a909fbd3199d07a4d819cd3efbbdba8c22039c06f1ed8
+  languageName: node
+  linkType: hard
+
+"@types/react@npm:18.2.12":
+  version: 18.2.12
+  resolution: "@types/react@npm:18.2.12"
+  dependencies:
+    "@types/prop-types": "*"
+    "@types/scheduler": "*"
+    csstype: ^3.0.2
+  checksum: ad85a7eadaf1b35cfeee9f715b39311420ff46d46e0650377d918b3f888c2e47416037da4a765e1dccd3d1916abd54c105a3bee803c971ba56c955a7768ce976
   languageName: node
   linkType: hard
 
@@ -5963,7 +5974,7 @@ __metadata:
     "@tamagui/lucide-icons": latest
     "@tamagui/shorthands": latest
     "@tamagui/themes": latest
-    "@types/react": 18.2.11
+    "@types/react": 18.2.12
     "@types/react-native": 0.72.2
     burnt: 0.11.5
     expo-constants: 14.2.1
