@@ -18,7 +18,7 @@
     "expo-constants": "14.2.1",
     "expo-linking": "4.0.1",
     "react-native-safe-area-context": "4.5.3",
-    "solito": "3.2.6"
+    "solito": "3.2.7"
   },
   "devDependencies": {
     "@types/react": "18.2.12",
