@@ -3536,6 +3536,22 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@react-navigation/core@npm:^6.4.9":
+  version: 6.4.9
+  resolution: "@react-navigation/core@npm:6.4.9"
+  dependencies:
+    "@react-navigation/routers": ^6.1.9
+    escape-string-regexp: ^4.0.0
+    nanoid: ^3.1.23
+    query-string: ^7.1.3
+    react-is: ^16.13.0
+    use-latest-callback: ^0.1.5
+  peerDependencies:
+    react: "*"
+  checksum: 5479a49f2bf64dd8da149e268bd926804a466a923baf1b7149707e5db9fc78bcfd131e6d225832cb8f826cef6fc8afb91e10802dd5d0f9086aac61cabcc973ac
+  languageName: node
+  linkType: hard
+
 "@react-navigation/elements@npm:^1.3.17":
   version: 1.3.17
   resolution: "@react-navigation/elements@npm:1.3.17"
@@ -3564,7 +3580,22 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@react-navigation/native@npm:6.1.6, @react-navigation/native@npm:~6.1.6":
+"@react-navigation/native@npm:6.1.7":
+  version: 6.1.7
+  resolution: "@react-navigation/native@npm:6.1.7"
+  dependencies:
+    "@react-navigation/core": ^6.4.9
+    escape-string-regexp: ^4.0.0
+    fast-deep-equal: ^3.1.3
+    nanoid: ^3.1.23
+  peerDependencies:
+    react: "*"
+    react-native: "*"
+  checksum: 917be90290b2de6aa6d32f0798369757d5577814fa1cf3b6b7fb62efdc6341f0db2c85a1826f1f83ccd563ffd7c2ce3c98ff7560e80f868641a66f162650a992
+  languageName: node
+  linkType: hard
+
+"@react-navigation/native@npm:~6.1.6":
   version: 6.1.6
   resolution: "@react-navigation/native@npm:6.1.6"
   dependencies:
@@ -3585,6 +3616,15 @@ __metadata:
   dependencies:
     nanoid: ^3.1.23
   checksum: f703ab9015e514e218a71a5cded79b1f2d2b7bb3d508e252aaa4b75cc1537b539177b1a66b4278322ce866320535fc1ebda7ea7f2f740abe6eac31f3b40e2c70
+  languageName: node
+  linkType: hard
+
+"@react-navigation/routers@npm:^6.1.9":
+  version: 6.1.9
+  resolution: "@react-navigation/routers@npm:6.1.9"
+  dependencies:
+    nanoid: ^3.1.23
+  checksum: 3a3392ce095d6a2bd2aad69856f513b35774f943a3dc73d8ffb75127de6773203e3264188d87058bdea4c0c9a7d43ed28d0cbf3a1f1cdc086df3ee255d8e1e27
   languageName: node
   linkType: hard
 
@@ -9372,7 +9412,7 @@ __metadata:
     "@babel/runtime": 7.22.5
     "@expo/metro-config": 0.7.1
     "@productsway/ui": "*"
-    "@react-navigation/native": 6.1.6
+    "@react-navigation/native": 6.1.7
     "@tamagui/babel-plugin": latest
     "@types/react-native": 0.72.2
     app: "*"
@@ -9395,7 +9435,7 @@ __metadata:
     react-native: 0.72.0
     react-native-gesture-handler: 2.12.0
     react-native-safe-area-context: 4.6.3
-    react-native-screens: 3.21.1
+    react-native-screens: 3.22.0
     react-native-svg: 13.9.0
     react-native-web: 0.19.5
     typescript: 5.1.3
@@ -15641,16 +15681,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-native-screens@npm:3.21.1":
-  version: 3.21.1
-  resolution: "react-native-screens@npm:3.21.1"
+"react-native-screens@npm:3.22.0":
+  version: 3.22.0
+  resolution: "react-native-screens@npm:3.22.0"
   dependencies:
     react-freeze: ^1.0.0
     warn-once: ^0.1.0
   peerDependencies:
     react: "*"
     react-native: "*"
-  checksum: 7a596108749e9afef4d3ac8b169f468a1f544ebe89a9b86716badbef0c1113d0fb7d068a17b0e767c473aead3832675ed191c09f572497bf2560f0a1db7498e1
+  checksum: 18014990785abade1223aeb6468c7f5917f9ef5bc7144fac4ba25b1778cb9faac413cbecd565fed6b7c40474a9387ba29d672af1539a175ca87a235900128b7f
   languageName: node
   linkType: hard
 
