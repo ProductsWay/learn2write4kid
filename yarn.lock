@@ -3518,7 +3518,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@react-native/normalize-color@npm:^2.0.0":
+"@react-native/normalize-color@npm:^2.0.0, @react-native/normalize-color@npm:^2.1.0":
   version: 2.1.0
   resolution: "@react-native/normalize-color@npm:2.1.0"
   checksum: 8ccbd40b3c7629f1dc97b3e9aadd95fd3507fcf2e37535a6299a70436ab891c34cbdc4240b07380553d6e85dd909e23d5773b5be1da2906b026312e0b0768838
@@ -9428,8 +9428,8 @@ __metadata:
     react-native-safe-area-context: 4.6.3
     react-native-screens: 3.22.0
     react-native-svg: 13.9.0
-    react-native-web: 0.19.5
-    typescript: 5.1.5
+    react-native-web: 0.19.6
+    typescript: 5.1.6
   languageName: unknown
   linkType: soft
 
@@ -12337,7 +12337,7 @@ __metadata:
     node-gyp: 9.4.0
     prettier: 2.8.8
     turbo: 1.10.6
-    typescript: 5.1.5
+    typescript: 5.1.6
   languageName: unknown
   linkType: soft
 
@@ -14021,7 +14021,7 @@ __metadata:
     react: 18.2.0
     react-dom: 18.2.0
     react-native: 0.72.0
-    react-native-web: 0.19.5
+    react-native-web: 0.19.6
     react-native-web-lite: latest
     vercel: latest
   languageName: unknown
@@ -14242,13 +14242,6 @@ __metadata:
   bin:
     nopt: bin/nopt.js
   checksum: 82149371f8be0c4b9ec2f863cc6509a7fd0fa729929c009f3a58e4eb0c9e4cae9920e8f1f8eb46e7d032fec8fb01bede7f0f41a67eb3553b7b8e14fa53de1dac
-  languageName: node
-  linkType: hard
-
-"normalize-css-color@npm:^1.0.2":
-  version: 1.0.2
-  resolution: "normalize-css-color@npm:1.0.2"
-  checksum: 7433dc995a8d27c9384059ef0b52ceef47f4fab1bab55f1f085058b27e7472466ce321f46391fc85b6851db5212b9bd2bf55f5dc361da01a8a8cf4c360f69dab
   languageName: node
   linkType: hard
 
@@ -15727,22 +15720,22 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-native-web@npm:0.19.5":
-  version: 0.19.5
-  resolution: "react-native-web@npm:0.19.5"
+"react-native-web@npm:0.19.6":
+  version: 0.19.6
+  resolution: "react-native-web@npm:0.19.6"
   dependencies:
     "@babel/runtime": ^7.18.6
+    "@react-native/normalize-color": ^2.1.0
     fbjs: ^3.0.4
     inline-style-prefixer: ^6.0.1
     memoize-one: ^6.0.0
-    normalize-css-color: ^1.0.2
     nullthrows: ^1.1.1
     postcss-value-parser: ^4.2.0
     styleq: ^0.1.3
   peerDependencies:
     react: ^18.0.0
     react-dom: ^18.0.0
-  checksum: 7e1d17527736e9c060dad55bdd0064b2d4bb3bcce78564d914251ea66214d7d1cc1aa1b43d32f3413c0c5572621271aff9fe5d7fb5f0ad78fb1b021f07826a12
+  checksum: 7fb19b2ad4ada6145e156b20d6bc1765bd76a5067a4a8f055591e5340c6e8703875d05dcfd3c9b25d9522b094f52402214d312479392ed0bbdaed93166889459
   languageName: node
   linkType: hard
 
@@ -18054,13 +18047,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typescript@npm:5.1.5":
-  version: 5.1.5
-  resolution: "typescript@npm:5.1.5"
+"typescript@npm:5.1.6":
+  version: 5.1.6
+  resolution: "typescript@npm:5.1.6"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
-  checksum: 0eef8699e05ae767096924dbed633c340b4d36e953bb8ed87fb12e9dd9dcea5055ceac7182c614a556dbd346a8a82df799d330e1e286ae66e17c84e1710f6a6f
+  checksum: b2f2c35096035fe1f5facd1e38922ccb8558996331405eb00a5111cc948b2e733163cc22fab5db46992aba7dd520fff637f2c1df4996ff0e134e77d3249a7350
   languageName: node
   linkType: hard
 
@@ -18084,13 +18077,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typescript@patch:typescript@5.1.5#~builtin<compat/typescript>":
-  version: 5.1.5
-  resolution: "typescript@patch:typescript@npm%3A5.1.5#~builtin<compat/typescript>::version=5.1.5&hash=5da071"
+"typescript@patch:typescript@5.1.6#~builtin<compat/typescript>":
+  version: 5.1.6
+  resolution: "typescript@patch:typescript@npm%3A5.1.6#~builtin<compat/typescript>::version=5.1.6&hash=5da071"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
-  checksum: 12ff5d14888805f24479e54bc8a3f83647107a6345f6c29dffcd429fb345be55f584a37e262cca58a0105203e41d4cb4e31b1b9096c9abeca0e2ace8eb00935e
+  checksum: f53bfe97f7c8b2b6d23cf572750d4e7d1e0c5fff1c36d859d0ec84556a827b8785077bc27676bf7e71fae538e517c3ecc0f37e7f593be913d884805d931bc8be
   languageName: node
   linkType: hard
 
