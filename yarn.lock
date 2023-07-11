@@ -6273,7 +6273,7 @@ __metadata:
     burnt: 0.11.7
     expo-constants: 14.4.2
     expo-linking: 4.1.0
-    react-native-safe-area-context: 4.6.4
+    react-native-safe-area-context: 4.7.0
     solito: 3.2.9
   languageName: unknown
   linkType: soft
@@ -9685,20 +9685,20 @@ __metadata:
     burnt: 0.11.7
     expo: 48.0.20
     expo-constants: 14.4.2
-    expo-dev-client: 2.4.4
+    expo-dev-client: 2.4.5
     expo-font: 11.4.0
     expo-linear-gradient: 12.3.0
     expo-linking: 4.1.0
     expo-router: 1.7.7
     expo-splash-screen: 0.20.4
     expo-status-bar: 1.6.0
-    expo-updates: 0.18.8
+    expo-updates: 0.18.9
     metro-minify-terser: 0.77.0
     react: 18.2.0
     react-dom: 18.2.0
     react-native: 0.72.1
     react-native-gesture-handler: 2.12.0
-    react-native-safe-area-context: 4.6.4
+    react-native-safe-area-context: 4.7.0
     react-native-screens: 3.22.1
     react-native-svg: 13.10.0
     react-native-web: 0.19.6
@@ -9766,31 +9766,31 @@ __metadata:
   languageName: node
   linkType: hard
 
-"expo-dev-client@npm:2.4.4":
-  version: 2.4.4
-  resolution: "expo-dev-client@npm:2.4.4"
+"expo-dev-client@npm:2.4.5":
+  version: 2.4.5
+  resolution: "expo-dev-client@npm:2.4.5"
   dependencies:
-    expo-dev-launcher: 2.4.6
-    expo-dev-menu: 3.1.6
+    expo-dev-launcher: 2.4.7
+    expo-dev-menu: 3.1.7
     expo-dev-menu-interface: 1.3.0
     expo-manifests: ~0.7.0
     expo-updates-interface: ~0.10.0
   peerDependencies:
     expo: "*"
-  checksum: 85010703ce898820d2f5a9f7f9b62f041b849767419fcf05df46a6390198640f10b399480e00ad22f3be039da40721c475c646ba0fa49f91539b1d22f9a76805
+  checksum: f37333ab11d7003c4cc299cce231ca19a27e0e0e3d81e839845730bfa8b874e8e5a2b35d4450ef382ca31beabb38c1dd32a73f37b4f2d90aafe2865f0a9ed9d9
   languageName: node
   linkType: hard
 
-"expo-dev-launcher@npm:2.4.6":
-  version: 2.4.6
-  resolution: "expo-dev-launcher@npm:2.4.6"
+"expo-dev-launcher@npm:2.4.7":
+  version: 2.4.7
+  resolution: "expo-dev-launcher@npm:2.4.7"
   dependencies:
-    expo-dev-menu: 3.1.6
+    expo-dev-menu: 3.1.7
     resolve-from: ^5.0.0
     semver: ^7.5.3
   peerDependencies:
     expo: "*"
-  checksum: bf0be9acc42722c846389f19eceeb267670c724fb9507ce6a7f27f40ab2991fd81d64c6ca6a8337316b942efc96ac60fa9adc571811005f454995241b7d76e4d
+  checksum: bcc814139f701b0ade540c996bfabe824c90d584a0e2b09fb664689be8adef6e2bda9e37e3b5ff1de1a36fc9151a9166080bd29d6969b1d964da4d99dc8ecd85
   languageName: node
   linkType: hard
 
@@ -9803,15 +9803,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"expo-dev-menu@npm:3.1.6":
-  version: 3.1.6
-  resolution: "expo-dev-menu@npm:3.1.6"
+"expo-dev-menu@npm:3.1.7":
+  version: 3.1.7
+  resolution: "expo-dev-menu@npm:3.1.7"
   dependencies:
     expo-dev-menu-interface: 1.3.0
     semver: ^7.5.3
   peerDependencies:
     expo: "*"
-  checksum: d6b855806189878398150cee270ca1ebccef234255283dd99e02df2b55c0179f945c053f43b805af1398067cfc50311a1b1679cb49e1e8b1d299345fc0917fd3
+  checksum: ff21dba5ff66d84d5b16b6cdf9eb168bc5c6e3bb84d8bcf57368707aa2bcf5b6b046ebe5ff81fde402ba1fc433bea8d7ba19d3b26f1382d57123f8e5c37f1384
   languageName: node
   linkType: hard
 
@@ -10025,9 +10025,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"expo-updates@npm:0.18.8":
-  version: 0.18.8
-  resolution: "expo-updates@npm:0.18.8"
+"expo-updates@npm:0.18.9":
+  version: 0.18.9
+  resolution: "expo-updates@npm:0.18.9"
   dependencies:
     "@expo/code-signing-certificates": 0.0.5
     "@expo/config": ~8.1.0
@@ -10043,7 +10043,7 @@ __metadata:
     expo: "*"
   bin:
     expo-updates: bin/cli.js
-  checksum: 03d0cafd03af8b390d24ac3380454aea47b4a227ba07e1805a443b293b51843a282ab2418896e896cb2875f7553864943279d3d2c9c891ad102ca29ee10547e2
+  checksum: 2788cb34663d58f62eac781d94b9190fcd94d07e8c75d984f38099918ff6536df2164f40e6b72018f76a768ff25dfb6ec69fe8a46fe7d959328fdef42f74df0c
   languageName: node
   linkType: hard
 
@@ -16095,13 +16095,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-native-safe-area-context@npm:4.6.4":
-  version: 4.6.4
-  resolution: "react-native-safe-area-context@npm:4.6.4"
+"react-native-safe-area-context@npm:4.7.0":
+  version: 4.7.0
+  resolution: "react-native-safe-area-context@npm:4.7.0"
   peerDependencies:
     react: "*"
     react-native: "*"
-  checksum: c6905193528dda61268565799d81817b1e436c32c120480084e48c955075e1017b399f763368ef39c4049d6eb0e2c05c3496390857d836b47ddcf861ab60871e
+  checksum: 75dab4c6f84f32423ce23dcf40ec0e85e56d9f962fbf477b486dba8c5cc3d69cd2f3cf91f753cfca220d555a108b40764d719f5a60dadbe683a9ea09c9014afd
   languageName: node
   linkType: hard
 
