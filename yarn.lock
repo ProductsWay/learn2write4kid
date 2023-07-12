@@ -9696,7 +9696,7 @@ __metadata:
     metro-minify-terser: 0.77.0
     react: 18.2.0
     react-dom: 18.2.0
-    react-native: 0.72.2
+    react-native: 0.72.3
     react-native-gesture-handler: 2.12.0
     react-native-safe-area-context: 4.7.1
     react-native-screens: 3.22.1
@@ -14422,7 +14422,7 @@ __metadata:
     raf: 3.4.1
     react: 18.2.0
     react-dom: 18.2.0
-    react-native: 0.72.2
+    react-native: 0.72.3
     react-native-web: 0.19.6
     react-native-web-lite: latest
     vercel: latest
@@ -16178,9 +16178,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-native@npm:0.72.2":
-  version: 0.72.2
-  resolution: "react-native@npm:0.72.2"
+"react-native@npm:0.72.3":
+  version: 0.72.3
+  resolution: "react-native@npm:0.72.3"
   dependencies:
     "@jest/create-cache-key-function": ^29.2.1
     "@react-native-community/cli": 11.3.5
@@ -16222,7 +16222,7 @@ __metadata:
     react: 18.2.0
   bin:
     react-native: cli.js
-  checksum: 3e60fcaaff3cc80f0af1675de66aedef94d6d9836d8327038f94a1482b01b2604a9afbb0dbfb0ee3c1a0e4127998aa67b1b9c3ba56eb5d6470b151a436d6c18e
+  checksum: 6d7565ab675a0103bb6e2e5058c173673a0312c1aebcde507b78941a415f8475f7829867ed067532767b111db99b45fa179d88717ff811270070a2f5d05d0fac
   languageName: node
   linkType: hard
 
