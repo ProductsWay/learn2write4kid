@@ -2616,9 +2616,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@expo/metro-config@npm:0.10.6":
-  version: 0.10.6
-  resolution: "@expo/metro-config@npm:0.10.6"
+"@expo/metro-config@npm:0.10.7":
+  version: 0.10.7
+  resolution: "@expo/metro-config@npm:0.10.7"
   dependencies:
     "@expo/config": ~8.1.0
     "@expo/env": 0.0.5
@@ -2632,7 +2632,7 @@ __metadata:
     postcss: ~8.4.21
     resolve-from: ^5.0.0
     sucrase: ^3.20.0
-  checksum: 931571a2b1fe6a311d8f19282fde0e5e4b75495ced04f6b555cb21d5be853f6ecf0e5e1169b191fb108c3f72ea338ce7ae192e7778105743ce5a4565588b645b
+  checksum: 7b54e08598e2673320a1647ce0f2ab8735cf15f3ea406b2d37b2fed96c7d66f6be9ca10aa622b7a1a7530168627c568f92d2060b8d22a639aaf758a21fb6f03b
   languageName: node
   linkType: hard
 
@@ -3171,81 +3171,81 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@next/env@npm:13.4.10":
-  version: 13.4.10
-  resolution: "@next/env@npm:13.4.10"
-  checksum: a3e1ca0fe2e58288a9747a279d168a5d2cdda68bd72174d4c8b6746e5172f261174401d787ec356ac424504f967f0a47bffeffcfdabd6fa73a9e2bd0ff851a73
+"@next/env@npm:13.4.12":
+  version: 13.4.12
+  resolution: "@next/env@npm:13.4.12"
+  checksum: 2ccb2e271b3c42697c1e807cdf988429fcb563f80fa0ca72512f65f47cbbcc46c44fc53bf055814d4b467f1394de8c1a1ef6aad14d35f9993004faa956466d02
   languageName: node
   linkType: hard
 
-"@next/eslint-plugin-next@npm:13.4.10":
-  version: 13.4.10
-  resolution: "@next/eslint-plugin-next@npm:13.4.10"
+"@next/eslint-plugin-next@npm:13.4.12":
+  version: 13.4.12
+  resolution: "@next/eslint-plugin-next@npm:13.4.12"
   dependencies:
     glob: 7.1.7
-  checksum: f14b99eb5d33b6ede9666ffafb596ee6be52157fc87b59d10d94e44b1e9836099ad450a67558c2aecf09c84b55f65a33c9254ab72df33f55f7cc9f4abee7b38c
+  checksum: a20cf430efe7602b819e69d826c33659a9c2cfa7c6162f63d91b607ff6ac9da0e79ff27f38cebd79117500640329bd107521b4874e6a2d009ddafab762885c82
   languageName: node
   linkType: hard
 
-"@next/swc-darwin-arm64@npm:13.4.10":
-  version: 13.4.10
-  resolution: "@next/swc-darwin-arm64@npm:13.4.10"
+"@next/swc-darwin-arm64@npm:13.4.12":
+  version: 13.4.12
+  resolution: "@next/swc-darwin-arm64@npm:13.4.12"
   conditions: os=darwin & cpu=arm64
   languageName: node
   linkType: hard
 
-"@next/swc-darwin-x64@npm:13.4.10":
-  version: 13.4.10
-  resolution: "@next/swc-darwin-x64@npm:13.4.10"
+"@next/swc-darwin-x64@npm:13.4.12":
+  version: 13.4.12
+  resolution: "@next/swc-darwin-x64@npm:13.4.12"
   conditions: os=darwin & cpu=x64
   languageName: node
   linkType: hard
 
-"@next/swc-linux-arm64-gnu@npm:13.4.10":
-  version: 13.4.10
-  resolution: "@next/swc-linux-arm64-gnu@npm:13.4.10"
+"@next/swc-linux-arm64-gnu@npm:13.4.12":
+  version: 13.4.12
+  resolution: "@next/swc-linux-arm64-gnu@npm:13.4.12"
   conditions: os=linux & cpu=arm64 & libc=glibc
   languageName: node
   linkType: hard
 
-"@next/swc-linux-arm64-musl@npm:13.4.10":
-  version: 13.4.10
-  resolution: "@next/swc-linux-arm64-musl@npm:13.4.10"
+"@next/swc-linux-arm64-musl@npm:13.4.12":
+  version: 13.4.12
+  resolution: "@next/swc-linux-arm64-musl@npm:13.4.12"
   conditions: os=linux & cpu=arm64 & libc=musl
   languageName: node
   linkType: hard
 
-"@next/swc-linux-x64-gnu@npm:13.4.10":
-  version: 13.4.10
-  resolution: "@next/swc-linux-x64-gnu@npm:13.4.10"
+"@next/swc-linux-x64-gnu@npm:13.4.12":
+  version: 13.4.12
+  resolution: "@next/swc-linux-x64-gnu@npm:13.4.12"
   conditions: os=linux & cpu=x64 & libc=glibc
   languageName: node
   linkType: hard
 
-"@next/swc-linux-x64-musl@npm:13.4.10":
-  version: 13.4.10
-  resolution: "@next/swc-linux-x64-musl@npm:13.4.10"
+"@next/swc-linux-x64-musl@npm:13.4.12":
+  version: 13.4.12
+  resolution: "@next/swc-linux-x64-musl@npm:13.4.12"
   conditions: os=linux & cpu=x64 & libc=musl
   languageName: node
   linkType: hard
 
-"@next/swc-win32-arm64-msvc@npm:13.4.10":
-  version: 13.4.10
-  resolution: "@next/swc-win32-arm64-msvc@npm:13.4.10"
+"@next/swc-win32-arm64-msvc@npm:13.4.12":
+  version: 13.4.12
+  resolution: "@next/swc-win32-arm64-msvc@npm:13.4.12"
   conditions: os=win32 & cpu=arm64
   languageName: node
   linkType: hard
 
-"@next/swc-win32-ia32-msvc@npm:13.4.10":
-  version: 13.4.10
-  resolution: "@next/swc-win32-ia32-msvc@npm:13.4.10"
+"@next/swc-win32-ia32-msvc@npm:13.4.12":
+  version: 13.4.12
+  resolution: "@next/swc-win32-ia32-msvc@npm:13.4.12"
   conditions: os=win32 & cpu=ia32
   languageName: node
   linkType: hard
 
-"@next/swc-win32-x64-msvc@npm:13.4.10":
-  version: 13.4.10
-  resolution: "@next/swc-win32-x64-msvc@npm:13.4.10"
+"@next/swc-win32-x64-msvc@npm:13.4.12":
+  version: 13.4.12
+  resolution: "@next/swc-win32-x64-msvc@npm:13.4.12"
   conditions: os=win32 & cpu=x64
   languageName: node
   linkType: hard
@@ -5284,9 +5284,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@trivago/prettier-plugin-sort-imports@npm:4.1.1":
-  version: 4.1.1
-  resolution: "@trivago/prettier-plugin-sort-imports@npm:4.1.1"
+"@trivago/prettier-plugin-sort-imports@npm:4.2.0":
+  version: 4.2.0
+  resolution: "@trivago/prettier-plugin-sort-imports@npm:4.2.0"
   dependencies:
     "@babel/generator": 7.17.7
     "@babel/parser": ^7.20.5
@@ -5296,11 +5296,11 @@ __metadata:
     lodash: ^4.17.21
   peerDependencies:
     "@vue/compiler-sfc": 3.x
-    prettier: 2.x
+    prettier: 2.x - 3.x
   peerDependenciesMeta:
     "@vue/compiler-sfc":
       optional: true
-  checksum: 09b4c3c3f4a9e7883737acf92ae7f2a59eb3f7a6f104621a883bdb2a962dcf98398891489267a6fdbba1227a3484676f8d7470e1b3bc6422b4f457382fd030ce
+  checksum: 2081ba9f1a2d33b9a3eeadeb3e713d404ee3d1a5cff3b20a23d94d6d915f0a8ff549616c1e77cd728f1b33733e0d7ab8e4c2512f344a612d81ece40025351160
   languageName: node
   linkType: hard
 
@@ -5564,10 +5564,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:18.16.19":
-  version: 18.16.19
-  resolution: "@types/node@npm:18.16.19"
-  checksum: 63c31f09616508aa7135380a4c79470a897b75f9ff3a70eb069e534dfabdec3f32fb0f9df5939127f1086614d980ddea0fa5e8cc29a49103c4f74cd687618aaf
+"@types/node@npm:18.16.20":
+  version: 18.16.20
+  resolution: "@types/node@npm:18.16.20"
+  checksum: 00ea5668e12047447b20bb31408ae717823e5b879c4c6296036216756874b2dc7976086343ffb6a717eb52e8d73dc6972d90b9134ef464b7361673228a02ed41
   languageName: node
   linkType: hard
 
@@ -9284,11 +9284,11 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-config-next@npm:13.4.10":
-  version: 13.4.10
-  resolution: "eslint-config-next@npm:13.4.10"
+"eslint-config-next@npm:13.4.12":
+  version: 13.4.12
+  resolution: "eslint-config-next@npm:13.4.12"
   dependencies:
-    "@next/eslint-plugin-next": 13.4.10
+    "@next/eslint-plugin-next": 13.4.12
     "@rushstack/eslint-patch": ^1.1.3
     "@typescript-eslint/parser": ^5.42.0
     eslint-import-resolver-node: ^0.3.6
@@ -9303,7 +9303,7 @@ __metadata:
   peerDependenciesMeta:
     typescript:
       optional: true
-  checksum: d555e077e5045f045e5bdab58429b2245993a0e28d3030209766558a6d32ae165496030cafbab8e6aaf714947d895ee30d1ecdb49263abdb23b6889a333ea714
+  checksum: 633eccf920d94a1248c089ec08c52245d863b1b45d68be04deff93c0a0d60373c96610d69d005909b2c9beb81b0af7a12a777d03277cd4db60233e99ac8ef281
   languageName: node
   linkType: hard
 
@@ -9726,7 +9726,7 @@ __metadata:
   dependencies:
     "@babel/core": 7.22.9
     "@babel/runtime": 7.22.6
-    "@expo/metro-config": 0.10.6
+    "@expo/metro-config": 0.10.7
     "@productsway/ui": "*"
     "@react-navigation/native": 6.1.7
     "@tamagui/babel-plugin": latest
@@ -12689,7 +12689,7 @@ __metadata:
   dependencies:
     "@babel/runtime": 7.22.6
     "@manypkg/cli": 0.21.0
-    "@trivago/prettier-plugin-sort-imports": 4.1.1
+    "@trivago/prettier-plugin-sort-imports": 4.2.0
     check-dependency-version-consistency: 4.1.0
     eslint: 8.45.0
     node-gyp: 9.4.0
@@ -14475,10 +14475,10 @@ __metadata:
   dependencies:
     "@tamagui/next-plugin": latest
     "@tamagui/next-theme": latest
-    "@types/node": 18.16.19
+    "@types/node": 18.16.20
     app: "*"
-    eslint-config-next: 13.4.10
-    next: 13.4.10
+    eslint-config-next: 13.4.12
+    next: 13.4.12
     raf: 3.4.1
     react: 18.2.0
     react-dom: 18.2.0
@@ -14489,20 +14489,20 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"next@npm:13.4.10":
-  version: 13.4.10
-  resolution: "next@npm:13.4.10"
+"next@npm:13.4.12":
+  version: 13.4.12
+  resolution: "next@npm:13.4.12"
   dependencies:
-    "@next/env": 13.4.10
-    "@next/swc-darwin-arm64": 13.4.10
-    "@next/swc-darwin-x64": 13.4.10
-    "@next/swc-linux-arm64-gnu": 13.4.10
-    "@next/swc-linux-arm64-musl": 13.4.10
-    "@next/swc-linux-x64-gnu": 13.4.10
-    "@next/swc-linux-x64-musl": 13.4.10
-    "@next/swc-win32-arm64-msvc": 13.4.10
-    "@next/swc-win32-ia32-msvc": 13.4.10
-    "@next/swc-win32-x64-msvc": 13.4.10
+    "@next/env": 13.4.12
+    "@next/swc-darwin-arm64": 13.4.12
+    "@next/swc-darwin-x64": 13.4.12
+    "@next/swc-linux-arm64-gnu": 13.4.12
+    "@next/swc-linux-arm64-musl": 13.4.12
+    "@next/swc-linux-x64-gnu": 13.4.12
+    "@next/swc-linux-x64-musl": 13.4.12
+    "@next/swc-win32-arm64-msvc": 13.4.12
+    "@next/swc-win32-ia32-msvc": 13.4.12
+    "@next/swc-win32-x64-msvc": 13.4.12
     "@swc/helpers": 0.5.1
     busboy: 1.6.0
     caniuse-lite: ^1.0.30001406
@@ -14544,7 +14544,7 @@ __metadata:
       optional: true
   bin:
     next: dist/bin/next
-  checksum: 823ec02325fc6d5cad055a596df8ba84066d9c259abf94755eeda4c8846e5b56fe244d0362d5f5a1182a29d9a62bebf1f428a2f79c338a07086a8cf3620778f7
+  checksum: 50bd443ffe09424c1a94d6606d41886ccd1d65185e125aa199957ea92c5e4d1c226f1675f3e5ea92e88f43f8355824ba50db52a8aeae225f7a86b6c901d25527
   languageName: node
   linkType: hard
 
