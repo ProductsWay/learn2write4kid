@@ -23,7 +23,7 @@
   },
   "devDependencies": {
     "@tamagui/next-plugin": "latest",
-    "@types/node": "18.17.2",
+    "@types/node": "18.17.3",
     "eslint-config-next": "13.4.12"
   }
 }
