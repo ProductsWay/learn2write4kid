@@ -10,8 +10,8 @@
     "start": "TAMAGUI_TARGET=native npx expo start -c"
   },
   "resolutions": {
-    "metro": "0.78.0",
-    "metro-resolver": "0.78.0"
+    "metro": "0.78.1",
+    "metro-resolver": "0.78.1"
   },
   "dependencies": {
     "@babel/runtime": "7.22.10",
@@ -45,11 +45,11 @@
     "@expo/metro-config": "0.10.7",
     "@tamagui/babel-plugin": "latest",
     "babel-plugin-transform-inline-environment-variables": "0.4.4",
-    "metro-minify-terser": "0.78.0",
+    "metro-minify-terser": "0.78.1",
     "typescript": "5.1.6"
   },
   "overrides": {
-    "metro": "0.78.0",
-    "metro-resolver": "0.78.0"
+    "metro": "0.78.1",
+    "metro-resolver": "0.78.1"
   }
 }
