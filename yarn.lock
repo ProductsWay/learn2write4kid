@@ -4997,10 +4997,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:18.17.6":
-  version: 18.17.6
-  resolution: "@types/node@npm:18.17.6"
-  checksum: 70bc92adde47d569f25c5ed40b55040cdf189518d6149e0c3041c6e60b1098cad9c48a856f0b7868ebd74d4098a0ca508b0ec4373dd96216eb8a387ee898e14c
+"@types/node@npm:18.17.7":
+  version: 18.17.7
+  resolution: "@types/node@npm:18.17.7"
+  checksum: cb327da222eb9dc2a8e86c957bef58b16f20a2f6b109e43ff10267e83b342bcba5257e800438dd54deb2bd66bb7815539a759c6dcf91e1b0b08b3add1d5886c8
   languageName: node
   linkType: hard
 
@@ -8519,14 +8519,14 @@ __metadata:
     burnt: 0.11.7
     expo: 48.0.20
     expo-constants: 14.4.2
-    expo-dev-client: 2.4.6
+    expo-dev-client: 2.4.8
     expo-font: 11.4.0
     expo-linear-gradient: 12.3.0
     expo-linking: 4.1.0
     expo-router: 1.7.7
     expo-splash-screen: 0.20.5
     expo-status-bar: 1.6.0
-    expo-updates: 0.18.11
+    expo-updates: 0.18.12
     metro-minify-terser: 0.78.1
     react: 18.2.0
     react-dom: 18.2.0
@@ -8600,31 +8600,31 @@ __metadata:
   languageName: node
   linkType: hard
 
-"expo-dev-client@npm:2.4.6":
-  version: 2.4.6
-  resolution: "expo-dev-client@npm:2.4.6"
+"expo-dev-client@npm:2.4.8":
+  version: 2.4.8
+  resolution: "expo-dev-client@npm:2.4.8"
   dependencies:
-    expo-dev-launcher: 2.4.8
-    expo-dev-menu: 3.1.8
+    expo-dev-launcher: 2.4.10
+    expo-dev-menu: 3.1.10
     expo-dev-menu-interface: 1.3.0
     expo-manifests: ~0.7.0
     expo-updates-interface: ~0.10.0
   peerDependencies:
     expo: "*"
-  checksum: b7b1f2135a77c8ef1deaf0412350d634106408f5989fb21e9974ebb47f6e332068a46bb66164185fb68b5306f5a79fd5c9eac918f277c8750cb3d503b2621310
+  checksum: 220fe52754d5ad217fe010f008026b31dd2ed7abb009ea5932331381df363011e5dbd0f89bf09792f1eaf694839f4e7d3a0516e99f4dc93ad0927552af932268
   languageName: node
   linkType: hard
 
-"expo-dev-launcher@npm:2.4.8":
-  version: 2.4.8
-  resolution: "expo-dev-launcher@npm:2.4.8"
+"expo-dev-launcher@npm:2.4.10":
+  version: 2.4.10
+  resolution: "expo-dev-launcher@npm:2.4.10"
   dependencies:
-    expo-dev-menu: 3.1.8
+    expo-dev-menu: 3.1.10
     resolve-from: ^5.0.0
     semver: ^7.5.3
   peerDependencies:
     expo: "*"
-  checksum: 61aa0f8cc5e4eab29879c062138dcb14fefc0f4d3c628077e1940f1c080cb10aa79fa317994408ac04a884304a8a60fe443052105c1bf8fda1b52add5b3bf567
+  checksum: 6c05af54da7aa84f566d9bf3ee78c714de8c467b224c9b8cd09cfb9cfb69242ec15e54587365b5b85ca32916ac673631f8da8dcc7c345425ba82ebf558577e15
   languageName: node
   linkType: hard
 
@@ -8637,15 +8637,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"expo-dev-menu@npm:3.1.8":
-  version: 3.1.8
-  resolution: "expo-dev-menu@npm:3.1.8"
+"expo-dev-menu@npm:3.1.10":
+  version: 3.1.10
+  resolution: "expo-dev-menu@npm:3.1.10"
   dependencies:
     expo-dev-menu-interface: 1.3.0
     semver: ^7.5.3
   peerDependencies:
     expo: "*"
-  checksum: 1387115c48602aa2ee08d6b48b3338e962fb4e359e4c574eab14baf892149d1e73b46908537edab9bc425216c2304ccacff3b750399c0224584032b6677800bc
+  checksum: 58674fb3ba01925239a7dcec54520be23030b8f36e7e9c0fb492fe226e1038ecad170bff88a60242fe58d771e6250fdea45d15a8f90587b5a2ef69496b3edcfa
   languageName: node
   linkType: hard
 
@@ -8870,9 +8870,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"expo-updates@npm:0.18.11":
-  version: 0.18.11
-  resolution: "expo-updates@npm:0.18.11"
+"expo-updates@npm:0.18.12":
+  version: 0.18.12
+  resolution: "expo-updates@npm:0.18.12"
   dependencies:
     "@expo/code-signing-certificates": 0.0.5
     "@expo/config": ~8.1.0
@@ -8889,7 +8889,7 @@ __metadata:
     expo: "*"
   bin:
     expo-updates: bin/cli.js
-  checksum: 0c01e7d0c9aca8c289255eb0e987ac0e3ff34bf2d294d5229a812cbd00cd0c732e2cc318646dbf4d7789d6ca3e7f35aa678b1e894c45187a2d37e3b74b5ad2f9
+  checksum: c0e3abdc4b807a5998f8b2c04910c2e3536b1ec7dc20ea337b986aa74496b961cebe054b0670a74bcea06fc9ac759982e6cd5a369fa94eafcfd94fbacc25797e
   languageName: node
   linkType: hard
 
@@ -12255,7 +12255,7 @@ __metadata:
   dependencies:
     "@tamagui/next-plugin": latest
     "@tamagui/next-theme": latest
-    "@types/node": 18.17.6
+    "@types/node": 18.17.7
     app: "*"
     eslint-config-next: 13.4.19
     next: 13.4.19
