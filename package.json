@@ -32,7 +32,7 @@
     "@babel/runtime": "7.22.11",
     "@manypkg/cli": "0.21.0",
     "check-dependency-version-consistency": "4.1.0",
-    "eslint": "8.47.0",
+    "eslint": "8.48.0",
     "node-gyp": "9.4.0",
     "prettier": "2.8.8",
     "turbo": "1.10.13",
