@@ -60,7 +60,30 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/core@npm:7.22.10, @babel/core@npm:^7.13.16, @babel/core@npm:^7.20.0, @babel/core@npm:^7.21.8":
+"@babel/core@npm:7.22.11":
+  version: 7.22.11
+  resolution: "@babel/core@npm:7.22.11"
+  dependencies:
+    "@ampproject/remapping": ^2.2.0
+    "@babel/code-frame": ^7.22.10
+    "@babel/generator": ^7.22.10
+    "@babel/helper-compilation-targets": ^7.22.10
+    "@babel/helper-module-transforms": ^7.22.9
+    "@babel/helpers": ^7.22.11
+    "@babel/parser": ^7.22.11
+    "@babel/template": ^7.22.5
+    "@babel/traverse": ^7.22.11
+    "@babel/types": ^7.22.11
+    convert-source-map: ^1.7.0
+    debug: ^4.1.0
+    gensync: ^1.0.0-beta.2
+    json5: ^2.2.3
+    semver: ^6.3.1
+  checksum: f258b2539ea2e5bfe55a708c2f3e1093a1b4744f12becc35abeb896037b66210de9a8ad6296a706046d5dc3a24e564362b73a9b814e5bfe500c8baab60c22d2e
+  languageName: node
+  linkType: hard
+
+"@babel/core@npm:^7.13.16, @babel/core@npm:^7.20.0, @babel/core@npm:^7.21.8":
   version: 7.22.10
   resolution: "@babel/core@npm:7.22.10"
   dependencies:
@@ -355,6 +378,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@babel/helpers@npm:^7.22.11":
+  version: 7.22.11
+  resolution: "@babel/helpers@npm:7.22.11"
+  dependencies:
+    "@babel/template": ^7.22.5
+    "@babel/traverse": ^7.22.11
+    "@babel/types": ^7.22.11
+  checksum: 93186544228b5e371486466ec3b86a77cce91beeff24a5670ca8ec46d50328f7700dab82d532351286e9d68624dc51d6d71589b051dd9535e44be077a43ec013
+  languageName: node
+  linkType: hard
+
 "@babel/highlight@npm:^7.10.4, @babel/highlight@npm:^7.22.10":
   version: 7.22.10
   resolution: "@babel/highlight@npm:7.22.10"
@@ -372,6 +406,15 @@ __metadata:
   bin:
     parser: ./bin/babel-parser.js
   checksum: af51567b7d3cdf523bc608eae057397486c7fa6c2e5753027c01fe5c36f0767b2d01ce3049b222841326cc5b8c7fda1d810ac1a01af0a97bb04679e2ef9f7049
+  languageName: node
+  linkType: hard
+
+"@babel/parser@npm:^7.22.11":
+  version: 7.22.11
+  resolution: "@babel/parser@npm:7.22.11"
+  bin:
+    parser: ./bin/babel-parser.js
+  checksum: 332079ed09794d3685343e9fc39c6a12dcb6ea589119f2135952cdef2424296786bb609a33f6dfa9be271797bbf8339f1865118418ea50b32a0c701734c96664
   languageName: node
   linkType: hard
 
@@ -1650,7 +1693,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/runtime@npm:7.22.10, @babel/runtime@npm:^7.0.0, @babel/runtime@npm:^7.12.5, @babel/runtime@npm:^7.13.10, @babel/runtime@npm:^7.18.6, @babel/runtime@npm:^7.20.0, @babel/runtime@npm:^7.20.7, @babel/runtime@npm:^7.21.5, @babel/runtime@npm:^7.8.4":
+"@babel/runtime@npm:7.22.11":
+  version: 7.22.11
+  resolution: "@babel/runtime@npm:7.22.11"
+  dependencies:
+    regenerator-runtime: ^0.14.0
+  checksum: a5cd6683a8fcdb8065cb1677f221e22f6c67ec8f15ad1d273b180b93ab3bd86c66da2c48f500d4e72d8d2cfa85ff4872a3f350e5aa3855630036af5da765c001
+  languageName: node
+  linkType: hard
+
+"@babel/runtime@npm:^7.0.0, @babel/runtime@npm:^7.12.5, @babel/runtime@npm:^7.13.10, @babel/runtime@npm:^7.18.6, @babel/runtime@npm:^7.20.0, @babel/runtime@npm:^7.20.7, @babel/runtime@npm:^7.21.5, @babel/runtime@npm:^7.8.4":
   version: 7.22.10
   resolution: "@babel/runtime@npm:7.22.10"
   dependencies:
@@ -1706,6 +1758,24 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@babel/traverse@npm:^7.22.11":
+  version: 7.22.11
+  resolution: "@babel/traverse@npm:7.22.11"
+  dependencies:
+    "@babel/code-frame": ^7.22.10
+    "@babel/generator": ^7.22.10
+    "@babel/helper-environment-visitor": ^7.22.5
+    "@babel/helper-function-name": ^7.22.5
+    "@babel/helper-hoist-variables": ^7.22.5
+    "@babel/helper-split-export-declaration": ^7.22.6
+    "@babel/parser": ^7.22.11
+    "@babel/types": ^7.22.11
+    debug: ^4.1.0
+    globals: ^11.1.0
+  checksum: 4ad62d548ca8b95dbf45bae16cc167428f174f3c837d55a5878b1f17bdbc8b384d6df741dc7c461b62c04d881cf25644d3ab885909ba46e3ac43224e2b15b504
+  languageName: node
+  linkType: hard
+
 "@babel/types@npm:7.17.0":
   version: 7.17.0
   resolution: "@babel/types@npm:7.17.0"
@@ -1724,6 +1794,17 @@ __metadata:
     "@babel/helper-validator-identifier": ^7.22.5
     to-fast-properties: ^2.0.0
   checksum: 095c4f4b7503fa816e4094113f0ec2351ef96ff32012010b771693066ff628c7c664b21c6bd3fb93aeb46fe7c61f6b3a3c9e4ed0034d6a2481201c417371c8af
+  languageName: node
+  linkType: hard
+
+"@babel/types@npm:^7.22.11":
+  version: 7.22.11
+  resolution: "@babel/types@npm:7.22.11"
+  dependencies:
+    "@babel/helper-string-parser": ^7.22.5
+    "@babel/helper-validator-identifier": ^7.22.5
+    to-fast-properties: ^2.0.0
+  checksum: 431a6446896adb62c876d0fe75263835735d3c974aae05356a87eb55f087c20a777028cf08eadcace7993e058bbafe3b21ce2119363222c6cef9eedd7a204810
   languageName: node
   linkType: hard
 
@@ -4997,10 +5078,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:18.17.9":
-  version: 18.17.9
-  resolution: "@types/node@npm:18.17.9"
-  checksum: 0d5835710e49a654a1ca34167e7cd504cc709c006006ebe9b23c360dac5637c6c4f1b4f3aff33df1b7f9debfb9ad8bd81da2fc4540970d2ad56eb479cda77613
+"@types/node@npm:18.17.11":
+  version: 18.17.11
+  resolution: "@types/node@npm:18.17.11"
+  checksum: c31d9f4a6f7c5c413b6548ded0fab046571832718361c5cda325960f32d6b386dd0a7fa9228911111fee54c180d09df82a622efdabdbef89fa9e1923891892bc
   languageName: node
   linkType: hard
 
@@ -8517,8 +8598,8 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "expo-app@workspace:apps/expo"
   dependencies:
-    "@babel/core": 7.22.10
-    "@babel/runtime": 7.22.10
+    "@babel/core": 7.22.11
+    "@babel/runtime": 7.22.11
     "@expo/metro-config": 0.10.7
     "@productsway/ui": "*"
     "@react-navigation/native": 6.1.7
@@ -8545,9 +8626,9 @@ __metadata:
     react-native-gesture-handler: 2.12.1
     react-native-safe-area-context: 4.7.1
     react-native-screens: 3.24.0
-    react-native-svg: 13.12.0
-    react-native-web: 0.19.7
-    typescript: 5.1.6
+    react-native-svg: 13.13.0
+    react-native-web: 0.19.8
+    typescript: 5.2.2
   languageName: unknown
   linkType: soft
 
@@ -10972,7 +11053,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"json5@npm:^2.1.1, json5@npm:^2.1.2, json5@npm:^2.2.2":
+"json5@npm:^2.1.1, json5@npm:^2.1.2, json5@npm:^2.2.2, json5@npm:^2.2.3":
   version: 2.2.3
   resolution: "json5@npm:2.2.3"
   bin:
@@ -11061,7 +11142,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "learn2write4kid@workspace:."
   dependencies:
-    "@babel/runtime": 7.22.10
+    "@babel/runtime": 7.22.11
     "@manypkg/cli": 0.21.0
     "@trivago/prettier-plugin-sort-imports": 4.2.0
     check-dependency-version-consistency: 4.1.0
@@ -11069,7 +11150,7 @@ __metadata:
     node-gyp: 9.4.0
     prettier: 2.8.8
     turbo: 1.10.13
-    typescript: 5.1.6
+    typescript: 5.2.2
   languageName: unknown
   linkType: soft
 
@@ -12266,7 +12347,7 @@ __metadata:
   dependencies:
     "@tamagui/next-plugin": latest
     "@tamagui/next-theme": latest
-    "@types/node": 18.17.9
+    "@types/node": 18.17.11
     app: "*"
     eslint-config-next: 13.4.19
     next: 13.4.19
@@ -12274,7 +12355,7 @@ __metadata:
     react: 18.2.0
     react-dom: 18.2.0
     react-native: 0.72.4
-    react-native-web: 0.19.7
+    react-native-web: 0.19.8
     react-native-web-lite: latest
     vercel: latest
   languageName: unknown
@@ -13663,16 +13744,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-native-svg@npm:13.12.0":
-  version: 13.12.0
-  resolution: "react-native-svg@npm:13.12.0"
+"react-native-svg@npm:13.13.0":
+  version: 13.13.0
+  resolution: "react-native-svg@npm:13.13.0"
   dependencies:
     css-select: ^5.1.0
     css-tree: ^1.1.3
   peerDependencies:
     react: "*"
     react-native: "*"
-  checksum: 68a67a1fee30f7a07b555da7a59fd7a1e093c168409f5b2ac04d1629fd4a4b3e13e5a71e5701be44b505744f4053759b45a41963ac1818f7874f82e04e12f91b
+  checksum: 533365186d868f8220dc9c247cc7f8a4e1b6ff73bd9530e5feff1bac9157225bae683f2cc148f00210080f29e02f5b2f673b536198d456e69870748e4e2b8998
   languageName: node
   linkType: hard
 
@@ -13706,9 +13787,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-native-web@npm:0.19.7":
-  version: 0.19.7
-  resolution: "react-native-web@npm:0.19.7"
+"react-native-web@npm:0.19.8":
+  version: 0.19.8
+  resolution: "react-native-web@npm:0.19.8"
   dependencies:
     "@babel/runtime": ^7.18.6
     "@react-native/normalize-color": ^2.1.0
@@ -13721,7 +13802,7 @@ __metadata:
   peerDependencies:
     react: ^18.0.0
     react-dom: ^18.0.0
-  checksum: b35d5554855f769c9c24932e9ae9fac1c2c1313cac06fe30de48fbdf9013e1da2ed82e28117f2dfa732c9f49e6bb4b58a3ac49001001e89973397036d3487674
+  checksum: b10bb37730d9d991b3b12c7cc408a6db62b7a7cd14e4f9f44d1128de2ffb2d8fc2cf2122d5c608d320239d342bfe07f1eb75dccdec2ae2ee93078eb879c5ef03
   languageName: node
   linkType: hard
 
@@ -15812,7 +15893,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typescript@npm:5.1.6, typescript@npm:^5.1.3":
+"typescript@npm:5.2.2":
+  version: 5.2.2
+  resolution: "typescript@npm:5.2.2"
+  bin:
+    tsc: bin/tsc
+    tsserver: bin/tsserver
+  checksum: 7912821dac4d962d315c36800fe387cdc0a6298dba7ec171b350b4a6e988b51d7b8f051317786db1094bd7431d526b648aba7da8236607febb26cf5b871d2d3c
+  languageName: node
+  linkType: hard
+
+"typescript@npm:^5.1.3":
   version: 5.1.6
   resolution: "typescript@npm:5.1.6"
   bin:
@@ -15832,7 +15923,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typescript@patch:typescript@5.1.6#~builtin<compat/typescript>, typescript@patch:typescript@^5.1.3#~builtin<compat/typescript>":
+"typescript@patch:typescript@5.2.2#~builtin<compat/typescript>":
+  version: 5.2.2
+  resolution: "typescript@patch:typescript@npm%3A5.2.2#~builtin<compat/typescript>::version=5.2.2&hash=f3b441"
+  bin:
+    tsc: bin/tsc
+    tsserver: bin/tsserver
+  checksum: 0f4da2f15e6f1245e49db15801dbee52f2bbfb267e1c39225afdab5afee1a72839cd86000e65ee9d7e4dfaff12239d28beaf5ee431357fcced15fb08583d72ca
+  languageName: node
+  linkType: hard
+
+"typescript@patch:typescript@^5.1.3#~builtin<compat/typescript>":
   version: 5.1.6
   resolution: "typescript@patch:typescript@npm%3A5.1.6#~builtin<compat/typescript>::version=5.1.6&hash=5da071"
   bin:
