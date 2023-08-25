@@ -17,13 +17,13 @@
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-native": "0.72.4",
-    "react-native-web": "0.19.7",
+    "react-native-web": "0.19.8",
     "react-native-web-lite": "latest",
     "vercel": "latest"
   },
   "devDependencies": {
     "@tamagui/next-plugin": "latest",
-    "@types/node": "18.17.9",
+    "@types/node": "18.17.11",
     "eslint-config-next": "13.4.19"
   }
 }
