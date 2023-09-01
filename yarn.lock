@@ -4974,10 +4974,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:18.17.12":
-  version: 18.17.12
-  resolution: "@types/node@npm:18.17.12"
-  checksum: 79f8bcca3067a3c529f30e172df8d14f25ab9e4cd6a05ed897a924ab1dec774e8ea172ef5c4a67ffec433d423a0c81778f17db22606d574bc83871b60aab298e
+"@types/node@npm:18.17.13":
+  version: 18.17.13
+  resolution: "@types/node@npm:18.17.13"
+  checksum: d70f263b7591f3993ddc348b809c867f9e4cc5151c7108ffdc89f32777da829e14a471932357da099afbd8db03f62bfc8119cd2d56f06b826bb28bb879feaf9f
   languageName: node
   linkType: hard
 
@@ -8511,7 +8511,7 @@ __metadata:
     expo-splash-screen: 0.20.5
     expo-status-bar: 1.6.0
     expo-updates: 0.18.12
-    metro-minify-terser: 0.78.1
+    metro-minify-terser: 0.79.0
     react: 18.2.0
     react-dom: 18.2.0
     react-native: 0.72.4
@@ -11630,12 +11630,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"metro-minify-terser@npm:0.78.1":
-  version: 0.78.1
-  resolution: "metro-minify-terser@npm:0.78.1"
+"metro-minify-terser@npm:0.79.0":
+  version: 0.79.0
+  resolution: "metro-minify-terser@npm:0.79.0"
   dependencies:
     terser: ^5.15.0
-  checksum: c4b0ef25ef587578865503412515a9fc8d7f127be8e96eb0af0fbc505c2854c427a292a5cde7e4b1317da50bf2739c4a2b512e12c1d4274c767dbc5211a46f2a
+  checksum: 752d4512f3f033b20c935a1ba6269cdf4496d4d022b31fcda0226c252d39a93e78bfd528055534b76fdcca55835d70027d78036be5c616177b6f22681c345519
   languageName: node
   linkType: hard
 
@@ -12256,7 +12256,7 @@ __metadata:
   dependencies:
     "@tamagui/next-plugin": latest
     "@tamagui/next-theme": latest
-    "@types/node": 18.17.12
+    "@types/node": 18.17.13
     app: "*"
     eslint-config-next: 13.4.19
     next: 13.4.19
