@@ -41,7 +41,7 @@
     "react-native-web": "0.19.8"
   },
   "devDependencies": {
-    "@babel/core": "7.22.19",
+    "@babel/core": "7.22.20",
     "@expo/metro-config": "0.10.7",
     "@tamagui/babel-plugin": "latest",
     "babel-plugin-transform-inline-environment-variables": "0.4.4",
