@@ -8708,7 +8708,7 @@ __metadata:
     babel-plugin-module-resolver: 5.0.0
     babel-plugin-transform-inline-environment-variables: 0.4.4
     burnt: 0.12.1
-    expo: 48.0.20
+    expo: 48.0.21
     expo-constants: 14.4.2
     expo-dev-client: 2.4.11
     expo-font: 11.6.0
@@ -9084,9 +9084,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"expo@npm:48.0.20":
-  version: 48.0.20
-  resolution: "expo@npm:48.0.20"
+"expo@npm:48.0.21":
+  version: 48.0.21
+  resolution: "expo@npm:48.0.21"
   dependencies:
     "@babel/runtime": ^7.20.0
     "@expo/cli": 0.7.3
@@ -9112,7 +9112,7 @@ __metadata:
     uuid: ^3.4.0
   bin:
     expo: bin/cli.js
-  checksum: 32bd8366a7eaae4af91e01ed4ec56d8e44efc96d69679f3c8b15bc818044ad01a545873753a7e6fed401248d71242a7ea98a04fec6f7e445b126b493c1dc37fc
+  checksum: c77eae241b50b39d27c83562fae176e2cb0048a41119b8721783168879464fdb50fc2ab1f1e1d5e0164b3b7a735bbf600e8bb57367b0c64f2ecbf6811f040772
   languageName: node
   linkType: hard
 
