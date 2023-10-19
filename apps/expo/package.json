@@ -21,7 +21,7 @@
     "app": "*",
     "babel-plugin-module-resolver": "5.0.0",
     "burnt": "0.12.1",
-    "expo": "48.0.20",
+    "expo": "48.0.21",
     "expo-constants": "14.4.2",
     "expo-dev-client": "2.4.11",
     "expo-font": "11.6.0",
