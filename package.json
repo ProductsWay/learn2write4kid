@@ -29,16 +29,16 @@
     "react-refresh": "0.14.0"
   },
   "dependencies": {
-    "@babel/runtime": "7.23.8",
+    "@babel/runtime": "7.23.9",
     "@manypkg/cli": "0.21.2",
     "check-dependency-version-consistency": "4.1.0",
-    "eslint": "8.56.0",
+    "eslint": "8.57.0",
     "node-gyp": "9.4.1",
     "prettier": "2.8.8",
-    "turbo": "1.11.3",
+    "turbo": "1.12.4",
     "typescript": "5.3.3"
   },
-  "packageManager": "yarn@3.7.0",
+  "packageManager": "yarn@3.8.0",
   "devDependencies": {
     "@trivago/prettier-plugin-sort-imports": "4.3.0"
   }
