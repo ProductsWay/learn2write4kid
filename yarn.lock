@@ -5469,12 +5469,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:18.19.18":
-  version: 18.19.18
-  resolution: "@types/node@npm:18.19.18"
+"@types/node@npm:20.17.2":
+  version: 20.17.2
+  resolution: "@types/node@npm:20.17.2"
   dependencies:
-    undici-types: ~5.26.4
-  checksum: 63fe4baabf55e6fb66b03a1fe34cc8d879b2fe018ac2901287d00baa09ea7ea82051e8e2cb4968dab7c6325de425b7eb1bd1a8315005a8ff21f8ef68e4bdaa4e
+    undici-types: ~6.19.2
+  checksum: 3e9be67728001fb2a0ba730d8e909559fb09b992443d8d9cc9009be717cb44c673f52a734d5802a67ff50c8ddd8ef7d9eba40e9d2a82a73098e081d2625260e6
   languageName: node
   linkType: hard
 
@@ -13081,7 +13081,7 @@ __metadata:
   dependencies:
     "@tamagui/next-plugin": latest
     "@tamagui/next-theme": latest
-    "@types/node": 18.19.18
+    "@types/node": 20.17.2
     app: "*"
     eslint-config-next: 13.5.6
     next: 13.5.6
@@ -16929,10 +16929,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"undici-types@npm:~5.26.4":
-  version: 5.26.5
-  resolution: "undici-types@npm:5.26.5"
-  checksum: 3192ef6f3fd5df652f2dc1cd782b49d6ff14dc98e5dced492aa8a8c65425227da5da6aafe22523c67f035a272c599bb89cfe803c1db6311e44bed3042fc25487
+"undici-types@npm:~6.19.2":
+  version: 6.19.8
+  resolution: "undici-types@npm:6.19.8"
+  checksum: de51f1b447d22571cf155dfe14ff6d12c5bdaec237c765085b439c38ca8518fc360e88c70f99469162bf2e14188a7b0bcb06e1ed2dc031042b984b0bb9544017
   languageName: node
   linkType: hard
 
