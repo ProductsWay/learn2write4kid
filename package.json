@@ -25,18 +25,18 @@
     "react": "18.3.1",
     "react-dom": "18.3.1",
     "react-native-svg": "13.14.1",
-    "react-native-web": "0.19.13",
-    "react-refresh": "0.14.2"
+    "react-native-web": "0.21.0",
+    "react-refresh": "0.17.0"
   },
   "dependencies": {
-    "@babel/runtime": "7.26.0",
-    "@manypkg/cli": "0.23.0",
-    "check-dependency-version-consistency": "4.1.0",
+    "@babel/runtime": "7.28.2",
+    "@manypkg/cli": "0.25.0",
+    "check-dependency-version-consistency": "4.1.1",
     "eslint": "8.57.1",
     "node-gyp": "9.4.1",
     "prettier": "2.8.8",
     "turbo": "1.13.4",
-    "typescript": "5.7.2"
+    "typescript": "5.9.2"
   },
   "packageManager": "yarn@3.8.7",
   "devDependencies": {
