@@ -25,12 +25,12 @@
     "react": "18.3.1",
     "react-dom": "18.3.1",
     "react-native-svg": "13.14.1",
-    "react-native-web": "0.21.0",
+    "react-native-web": "0.21.1",
     "react-refresh": "0.17.0"
   },
   "dependencies": {
-    "@babel/runtime": "7.28.2",
-    "@manypkg/cli": "0.25.0",
+    "@babel/runtime": "7.28.4",
+    "@manypkg/cli": "0.25.1",
     "check-dependency-version-consistency": "4.1.1",
     "eslint": "8.57.1",
     "node-gyp": "9.4.1",
