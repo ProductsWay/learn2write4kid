@@ -7133,7 +7133,7 @@ __metadata:
     expo-constants: 14.5.1
     expo-linking: 4.1.0
     react-native-safe-area-context: 4.14.1
-    solito: 3.2.9
+    solito: 4.4.1
   languageName: unknown
   linkType: soft
 
@@ -17109,10 +17109,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"solito@npm:3.2.9":
-  version: 3.2.9
-  resolution: "solito@npm:3.2.9"
-  checksum: 79fed7c2f71d1604007cb92f901cabbae3b8af05a0835b110dfb263d6a8d5f4cbb5f02911767e5b9a73e6552898e53ebbfe401d3aa6c9a7cfdc5a5fbf4a2c3e1
+"solito@npm:4.4.1":
+  version: 4.4.1
+  resolution: "solito@npm:4.4.1"
+  dependencies:
+    typescript: ^5.0.4
+  checksum: bf2475939ed93b2551d745152da6b4c96ae817124559427ef6ef7f2c673a9b80226e0bfe1282f934e2606d5458549a80784cb4d2caa55971b59aa76f215e0ed6
   languageName: node
   linkType: hard
 
@@ -18242,7 +18244,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typescript@npm:5.9.3":
+"typescript@npm:5.9.3, typescript@npm:^5.0.4":
   version: 5.9.3
   resolution: "typescript@npm:5.9.3"
   bin:
@@ -18272,7 +18274,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typescript@patch:typescript@5.9.3#~builtin<compat/typescript>":
+"typescript@patch:typescript@5.9.3#~builtin<compat/typescript>, typescript@patch:typescript@^5.0.4#~builtin<compat/typescript>":
   version: 5.9.3
   resolution: "typescript@patch:typescript@npm%3A5.9.3#~builtin<compat/typescript>::version=5.9.3&hash=5786d5"
   bin:
