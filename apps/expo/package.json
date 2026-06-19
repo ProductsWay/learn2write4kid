@@ -10,16 +10,16 @@
     "start": "TAMAGUI_TARGET=native npx expo start -c"
   },
   "resolutions": {
-    "metro": "0.83.3",
-    "metro-resolver": "0.83.3"
+    "metro": "0.84.4",
+    "metro-resolver": "0.84.4"
   },
   "dependencies": {
-    "@babel/runtime": "7.28.4",
+    "@babel/runtime": "7.29.7",
     "@productsway/ui": "*",
     "@react-navigation/native": "6.1.18",
     "@types/react-native": "0.73.0",
     "app": "*",
-    "babel-plugin-module-resolver": "5.0.2",
+    "babel-plugin-module-resolver": "5.0.3",
     "burnt": "0.13.0",
     "expo": "48.0.21",
     "expo-constants": "14.5.1",
@@ -30,26 +30,26 @@
     "expo-router": "1.7.7",
     "expo-splash-screen": "0.30.10",
     "expo-status-bar": "1.12.1",
-    "expo-updates": "0.28.17",
+    "expo-updates": "0.28.18",
     "react": "18.3.1",
     "react-dom": "18.3.1",
-    "react-native": "0.82.1",
-    "react-native-gesture-handler": "2.29.1",
+    "react-native": "0.86.0",
+    "react-native-gesture-handler": "2.32.0",
     "react-native-safe-area-context": "4.14.1",
     "react-native-screens": "3.37.0",
     "react-native-svg": "13.14.1",
     "react-native-web": "0.21.2"
   },
   "devDependencies": {
-    "@babel/core": "7.28.5",
+    "@babel/core": "7.29.7",
     "@expo/metro-config": "0.21.11",
     "@tamagui/babel-plugin": "latest",
     "babel-plugin-transform-inline-environment-variables": "0.4.4",
-    "metro-minify-terser": "0.83.3",
+    "metro-minify-terser": "0.84.4",
     "typescript": "5.9.3"
   },
   "overrides": {
-    "metro": "0.83.3",
-    "metro-resolver": "0.83.3"
+    "metro": "0.84.4",
+    "metro-resolver": "0.84.4"
   }
 }
