@@ -18,16 +18,16 @@ jobs:
           fi
 
       - name: Checkout repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v3.6.0
 
       - name: Setup Node
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v3.9.1
         with:
           node-version: 18.20.8
           cache: yarn
 
       - name: Setup EAS
-        uses: expo/expo-github-action@v8
+        uses: expo/expo-github-action@8.2.1
         with:
           eas-version: latest
           token: ${{ secrets.EXPO_TOKEN }}
