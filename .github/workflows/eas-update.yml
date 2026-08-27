@@ -23,7 +23,7 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v3.9.1
         with:
-          node-version: 18.20.8
+          node-version: 24.20.0
           cache: yarn
 
       - name: Setup EAS
